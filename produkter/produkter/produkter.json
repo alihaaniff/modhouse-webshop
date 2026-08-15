@@ -1,0 +1,65 @@
+{
+  "produkter": [
+    {
+      "id": "pc-001",
+      "namn": "Custom Build \"Cyberdrive\"",
+      "kategori": "Custom-byggda PC:ar",
+      "pris": 28999,
+      "valuta": "SEK",
+      "unik": true,
+      "antal_kvar": 1,
+      "beskrivning": "Vattenkyld gaming-PC med cyberpunk-tema, genomskinligt chassi och synkroniserad RGB.",
+      "specifikationer": {
+        "processor": "Ryzen 7 7800X3D",
+        "grafikkort": "RTX 4080",
+        "ram": "32GB DDR5",
+        "lagring": "2TB NVMe SSD"
+      },
+      "bild": "img/pc-cyberdrive.jpg"
+    },
+    {
+      "id": "console-001",
+      "namn": "SNES Classic Mod – \"Neon Drive\" Edition",
+      "kategori": "Moddade/retro-konsoler",
+      "pris": 3499,
+      "valuta": "SEK",
+      "unik": true,
+      "antal_kvar": 3,
+      "beskrivning": "Handmodad SNES med HDMI-utgång, inbyggda klassiker och custom neonlackerat skal.",
+      "bild": "img/snes-neondrive.jpg"
+    },
+    {
+      "id": "game-001",
+      "namn": "Chrono Trigger (SNES, signerad)",
+      "kategori": "Retro-spel & samlarobjekt",
+      "pris": 1899,
+      "valuta": "SEK",
+      "unik": true,
+      "antal_kvar": 1,
+      "beskrivning": "Originalkassett i gott skick, signerad av lokal retrospel-samlare.",
+      "bild": "img/chrono-trigger.jpg"
+    },
+    {
+      "id": "keyboard-001",
+      "namn": "Custom mekaniskt tangentbord – Artisan Edition",
+      "kategori": "Custom-tillbehör",
+      "pris": 1899,
+      "valuta": "SEK",
+      "unik": false,
+      "antal_kvar": 12,
+      "beskrivning": "Handbyggt tangentbord med hotswap-switchar och artisan keycaps.",
+      "bild": "img/keyboard-artisan.jpg"
+    },
+    {
+      "id": "drop-001",
+      "namn": "PS5 \"Midnight Circuit\" Limited Skin",
+      "kategori": "Limited drops",
+      "pris": 6999,
+      "valuta": "SEK",
+      "unik": true,
+      "antal_kvar": 5,
+      "beskrivning": "Begränsad upplaga PS5 med custom-målat skal av lokal artist. Endast 10 exemplar tillverkade totalt.",
+      "bild": "img/ps5-midnightcircuit.jpg"
+    }
+  ]
+}
