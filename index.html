@@ -1,11 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
+
 <head>
-  <title>Modhouse</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modhouse – Retro & Custom Gaming</title>
+
+    <meta name="description"
+        content="Modhouse är en nischad webbshop för custom gaming, retrospel, moddade konsoler och limited drops.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGQQR5PHLD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-MGQQR5PHLD');
+    </script>
 </head>
-<body>
-  <h1>Modhouse</h1>
-  <script src="js/main.js"></script>
+
+<body data-page="home">
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a class="logo" href="index.html" aria-label="Modhouse startsida">
+                MOD<span>HOUSE</span>
+            </a>
+
+            <nav aria-label="Huvudnavigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="index.html#categories">Kategorier</a></li>
+                    <li><a href="index.html#about">Om oss</a></li>
+                </ul>
+            </nav>
+
+            <a class="cart-link" href="kundvagn.html" aria-label="Öppna kundvagn">
+                🛒 Kundvagn
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Retro • Custom • Limited
+                    </p>
+
+                    <h1>
+                        Gaming som inte finns överallt.
+                    </h1>
+
+                    <p>
+                        Upptäck handmoddade konsoler, custom-PC,
+                        mekaniska tangentbord och unika samlarobjekt.
+                    </p>
+
+                    <a class="button" href="produkter.html">
+                        Utforska produkter →
+                    </a>
+
+                    <a class="button secondary" href="#categories">
+                        Se kategorier
+                    </a>
+
+                </div>
+
+                <aside class="hero-card">
+
+                    <strong>5</strong>
+
+                    <span>
+                        unika produkter i vår katalog
+                    </span>
+
+                    <p class="muted">
+                        Byggd för att visa en enkel e-handelsresa
+                        och samla data om användarbeteende.
+                    </p>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+        <!-- Kategorier -->
+        <section class="section" id="categories">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Kategorier
+                </p>
+
+                <h2>
+                    Hitta din nästa setup-favorit
+                </h2>
+
+                <div class="category-grid">
+
+                    <a href="produkter.html?category=custom-pc" class="category-card">
+
+                        <h3>
+                            🖥️ Custom-PC
+                        </h3>
+
+                        <p class="muted">
+                            Byggda för prestanda och personlighet.
+                        </p>
+
+                    </a>
+
+                    <a href="produkter.html?category=moddade-konsoler" class="category-card">
+
+                        <h3>
+                            🕹️ Moddade konsoler
+                        </h3>
+
+                        <p class="muted">
+                            Retro möter modern design.
+                        </p>
+
+                    </a>
+
+                    <a href="produkter.html?category=custom-tillbehor" class="category-card">
+
+                        <h3>
+                            ⌨️ Custom-tillbehör
+                        </h3>
+
+                        <p class="muted">
+                            Handbyggda detaljer för din setup.
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Om oss -->
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Om Modhouse
+                </p>
+
+                <h2>
+                    Unika gamingprylar
+                </h2>
+
+                <p class="muted">
+                    Modhouse är ett skolprojekt som demonstrerar
+                    en semantisk webbshop med strukturerad produktdata
+                    och webbanalys.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Modhouse • Skolprojekt
+            </p>
+
+            <p>
+                Webbshop för retro, custom gaming och limited drops.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
