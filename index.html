@@ -21,8 +21,13 @@
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC5NCCBT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC5NCCBT"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
@@ -33,8 +38,13 @@
                 <li>
                     <a href="index.html">Hem</a>
                 </li>
+
                 <li>
-                    <a href="kategori.html">Produkter</a>
+                    <a href="produkter.html">Produkter</a>
+                </li>
+
+                <li>
+                    <a href="kategori.html">Kategori</a>
                 </li>
             </ul>
         </nav>
@@ -52,92 +62,105 @@
             </p>
 
             <p>
-                <a href="kategori.html">Se våra produkter</a>
+                <a href="kategori.html">
+                    Se våra produkter
+                </a>
             </p>
         </section>
+
 
         <section>
             <h2>Utvalda produkter</h2>
 
-            <article
-                itemscope
-                itemtype="https://schema.org/Product"
-            >
+            <div class="produkter">
 
-                <h3 itemprop="name">Custom Gaming PC</h3>
-
-                <img
-                    src="images/pc-cyberdrive.jpeg"
-                    alt="Custom Gaming PC"
-                    width="300"
-                    itemprop="image"
+                <article
+                    itemscope
+                    itemtype="https://schema.org/Product"
                 >
 
-                <p itemprop="description">
-                    En custombyggd gaming-PC för hög prestanda
-                    och gaming.
-                </p>
+                    <h3 itemprop="name">
+                        High End Gaming PC
+                    </h3>
 
-                <p>
-                    Pris:
-                    <span
-                        itemprop="offers"
-                        itemscope
-                        itemtype="https://schema.org/Offer"
+                    <img
+                        src="images/pc-cyberdrive.jpeg"
+                        alt="High End Gaming PC"
+                        width="300"
+                        itemprop="image"
                     >
-                        <span itemprop="price">28999</span>
-                        <span itemprop="priceCurrency">SEK</span>
-                    </span>
-                </p>
 
-                <p>
-                    <a href="produkt1.html">
-                        Läs mer om produkten
-                    </a>
-                </p>
+                    <p itemprop="description">
+                        En custombyggd gaming-PC för hög
+                        prestanda och gaming.
+                    </p>
 
-            </article>
+                    <p>
+                        Pris:
+                        <span
+                            itemprop="offers"
+                            itemscope
+                            itemtype="https://schema.org/Offer"
+                        >
+                            <span itemprop="price">28999</span>
+                            <span itemprop="priceCurrency">SEK</span>
+                        </span>
+                    </p>
 
-            <article
-                itemscope
-                itemtype="https://schema.org/Product"
-            >
+                    <p>
+                        <a href="highpc.html">
+                            Läs mer om produkten
+                        </a>
+                    </p>
 
-                <h3 itemprop="name">Uplink Gaming Mouse</h3>
+                </article>
 
-                <img
-                    src="images/mouse-uplink.webp"
-                    alt="Uplink Gaming Mouse"
-                    width="300"
-                    itemprop="image"
+
+                <article
+                    itemscope
+                    itemtype="https://schema.org/Product"
                 >
 
-                <p itemprop="description">
-                    En enkel och anpassningsbar gamingmus
-                    för gaming.
-                </p>
+                    <h3 itemprop="name">
+                        Uplink Gaming Mouse
+                    </h3>
 
-                <p>
-                    Pris:
-                    <span
-                        itemprop="offers"
-                        itemscope
-                        itemtype="https://schema.org/Offer"
+                    <img
+                        src="images/mouse-uplink.webp"
+                        alt="Uplink Gaming Mouse"
+                        width="300"
+                        itemprop="image"
                     >
-                        <span itemprop="price">799</span>
-                        <span itemprop="priceCurrency">SEK</span>
-                    </span>
-                </p>
 
-                <p>
-                    <a href="produkt2.html">
-                        Läs mer om produkten
-                    </a>
-                </p>
+                    <p itemprop="description">
+                        En enkel och anpassningsbar gamingmus
+                        för gaming.
+                    </p>
 
-            </article>
+                    <p>
+                        Pris:
+                        <span
+                            itemprop="offers"
+                            itemscope
+                            itemtype="https://schema.org/Offer"
+                        >
+                            <span itemprop="price">799</span>
+                            <span itemprop="priceCurrency">SEK</span>
+                        </span>
+                    </p>
+
+                    <p>
+                        <a href="produkt2.html">
+                            Läs mer om produkten
+                        </a>
+                    </p>
+
+                </article>
+
+            </div>
 
         </section>
+
 
         <section>
             <h2>Om Modhouse</h2>
@@ -155,6 +178,7 @@
         </section>
 
     </main>
+
 
     <footer>
         <p>&copy; 2026 Modhouse</p>

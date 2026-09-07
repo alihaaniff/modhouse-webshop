@@ -4,3 +4,35 @@ footer { border-top: 1px solid #ccc; border-bottom: 0; margin-top: 40px; }
 nav a { margin-right: 15px; }
 article { margin: 25px 0; }
 img { max-width: 400px; height: auto; }
+
+
+.produkter {
+    display: flex;
+    gap: 20px;
+}
+
+.produkter article {
+    width: 30%;
+}
+
+.produkter img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.produkter {
+    display: flex;
+    gap: 20px;
+}
+
+.produkter article {
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
