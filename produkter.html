@@ -4,13 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Se Modhouse produkter inom custom gaming.">
+    <title>Produkter - Modhouse</title>
 
-    <title>Produkter – Modhouse</title>
-
-    <meta name="description"
-        content="Se Modhouses produkter inom custom gaming, retro och limited drops.">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGQQR5PHLD"></script>
@@ -26,214 +23,109 @@
     </script>
 </head>
 
-<body data-page="products">
+<body>
 
-    <!-- Header -->
-    <header class="site-header">
+    <header>
+        <h1>Modhouse</h1>
 
-        <div class="container header-inner">
-
-            <a class="logo" href="index.html">
-                MOD<span>HOUSE</span>
-            </a>
-
-            <nav aria-label="Huvudnavigation">
-
-                <ul class="nav-list">
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="produkter.html">Produkter</a></li>
-                    <li><a href="index.html#categories">Kategorier</a></li>
-                    <li><a href="index.html#about">Om oss</a></li>
-                </ul>
-
-            </nav>
-
-            <a class="cart-link" href="kundvagn.html">
-                🛒 Kundvagn
-                <span class="cart-count">0</span>
-            </a>
-
-        </div>
-
+        <nav aria-label="Huvudnavigation">
+            <ul>
+                <li>
+                    <a href="index.html">Hem</a>
+                </li>
+                <li>
+                    <a href="produkter.html">Produkter</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
 
-        <!-- Produkter -->
-        <section class="section">
+        <section>
+            <h2>Produkter</h2>
 
-            <div class="container">
+            <article
+                itemscope
+                itemtype="https://schema.org/Product"
+            >
 
-                <p class="eyebrow">
-                    VÅRA PRODUKTER
+                <h3 itemprop="name">Custom Gaming PC</h3>
+
+                <img
+                    src="images/pc-cyberdrive.jpeg"
+                    alt="Custom Gaming PC"
+                    width="300"
+                    itemprop="image"
+                >
+
+                <p itemprop="description">
+                    En custombyggd gaming-PC för hög prestanda
+                    och gaming.
                 </p>
 
-                <h1>
-                    Produkter
-                </h1>
-
-                <p class="muted">
-                    Utforska våra custom-produkter och limited drops.
+                <p>
+                    Pris:
+                    <span
+                        itemprop="offers"
+                        itemscope
+                        itemtype="https://schema.org/Offer"
+                    >
+                        <span itemprop="price">28999</span>
+                        <span itemprop="priceCurrency">SEK</span>
+                    </span>
                 </p>
 
-                <div class="product-grid">
+                <a href="produkt1.html">
+                    Visa produkt
+                </a>
 
-                    <article class="product-card">
-                        <img
-                            src="images/pc-cyberdrive.jpeg"
-                            alt="Custom Build Cyberdrive">
+            </article>
 
-                        <p class="eyebrow">
-                            Custom-PC
-                        </p>
+            <article
+                itemscope
+                itemtype="https://schema.org/Product"
+            >
 
-                        <h2>
-                            Custom Build "Cyberdrive"
-                        </h2>
+                <h3 itemprop="name">Uplink Gaming Mouse</h3>
 
-                        <p>
-                            Kraftfull custom-PC för gaming.
-                        </p>
+                <img
+                    src="images/mouse-uplink.webp"
+                    alt="Uplink Gaming Mouse"
+                    width="300"
+                    itemprop="image"
+                >
 
-                        <p class="price">
-                            28999 SEK
-                        </p>
+                <p itemprop="description">
+                    En enkel och anpassningsbar gamingmus
+                    för gaming.
+                </p>
 
-                        <a class="button" href="produkt.html?id=cyberdrive">
-                            Visa produkt
-                        </a>
-                    </article>
+                <p>
+                    Pris:
+                    <span
+                        itemprop="offers"
+                        itemscope
+                        itemtype="https://schema.org/Offer"
+                    >
+                        <span itemprop="price">799</span>
+                        <span itemprop="priceCurrency">SEK</span>
+                    </span>
+                </p>
 
-                    <article class="product-card">
-                        <img
-                            src="images/headset-neurallink.png"
-                            alt="Neuralink Gaming Headset">
+                <a href="produkt2.html">
+                    Visa produkt
+                </a>
 
-                        <p class="eyebrow">
-                            Custom-tillbehör
-                        </p>
-
-                        <h2>
-                            Neuralink Gaming Headset
-                        </h2>
-
-                        <p>
-                            Gamingheadset med unik design.
-                        </p>
-
-                        <p class="price">
-                            1499 SEK
-                        </p>
-
-                        <a class="button" href="produkt.html?id=headset-neurallink">
-                            Visa produkt
-                        </a>
-                    </article>
-
-                    <article class="product-card">
-                        <img
-                            src="images/mouse-uplink.webp"
-                            alt="Uplink Gaming Mouse">
-
-                        <p class="eyebrow">
-                            Custom-tillbehör
-                        </p>
-
-                        <h2>
-                            Uplink Gaming Mouse
-                        </h2>
-
-                        <p>
-                            Anpassad gamingmus för din setup.
-                        </p>
-
-                        <p class="price">
-                            799 SEK
-                        </p>
-
-                        <a class="button" href="produkt.html?id=mouse-uplink">
-                            Visa produkt
-                        </a>
-                    </article>
-
-                    <article class="product-card">
-                        <img
-                            src="images/keyboard-artisan.webp"
-                            alt="Custom mekaniskt tangentbord">
-
-                        <p class="eyebrow">
-                            Custom-tillbehör
-                        </p>
-
-                        <h2>
-                            Custom mekaniskt tangentbord – Artisan Edition
-                        </h2>
-
-                        <p>
-                            Mekaniskt tangentbord med custom-design.
-                        </p>
-
-                        <p class="price">
-                            1899 SEK
-                        </p>
-
-                        <a class="button" href="produkt.html?id=keyboard-artisan">
-                            Visa produkt
-                        </a>
-                    </article>
-
-                    <article class="product-card">
-                        <img
-                            src="images/ps5-widowsweb.jpg"
-                            alt="PS5 Midnight Circuit">
-
-                        <p class="eyebrow">
-                            Limited drops
-                        </p>
-
-                        <h2>
-                            PS5 "Midnight Circuit" Limited Skin
-                        </h2>
-
-                        <p>
-                            Limited edition-design för PS5.
-                        </p>
-
-                        <p class="price">
-                            6999 SEK
-                        </p>
-
-                        <a class="button" href="produkt.html?id=ps5-midnightcircuit">
-                            Visa produkt
-                        </a>
-                    </article>
-
-                </div>
-
-            </div>
+            </article>
 
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-
-        <div class="container">
-
-            <p>
-                © 2026 Modhouse • Skolprojekt
-            </p>
-
-            <p>
-                Webbshop för retro, custom gaming och limited drops.
-            </p>
-
-        </div>
-
+    <footer>
+        <p>&copy; 2026 Modhouse</p>
     </footer>
-
-    <script src="js/main.js"></script>
 
 </body>
 

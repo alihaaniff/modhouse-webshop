@@ -4,13 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modhouse - Retro och custom gamingprodukter">
+    <title>Modhouse - Retro & Custom Gaming</title>
 
-    <title>Modhouse – Retro & Custom Gaming</title>
-
-    <meta name="description"
-        content="Modhouse är en nischad webbshop för custom gaming, retrospel, moddade konsoler och limited drops.">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGQQR5PHLD"></script>
@@ -26,186 +23,142 @@
     </script>
 </head>
 
-<body data-page="home">
+<body>
 
-    <!-- Header -->
-    <header class="site-header">
+    <header>
+        <h1>Modhouse</h1>
 
-        <div class="container header-inner">
-
-            <a class="logo" href="index.html" aria-label="Modhouse startsida">
-                MOD<span>HOUSE</span>
-            </a>
-
-            <nav aria-label="Huvudnavigation">
-                <ul class="nav-list">
-                    <li><a href="index.html">Hem</a></li>
-                    <li><a href="produkter.html">Produkter</a></li>
-                    <li><a href="index.html#categories">Kategorier</a></li>
-                    <li><a href="index.html#about">Om oss</a></li>
-                </ul>
-            </nav>
-
-            <a class="cart-link" href="kundvagn.html" aria-label="Öppna kundvagn">
-                🛒 Kundvagn
-                <span class="cart-count">0</span>
-            </a>
-
-        </div>
-
+        <nav aria-label="Huvudnavigation">
+            <ul>
+                <li>
+                    <a href="index.html">Hem</a>
+                </li>
+                <li>
+                    <a href="produkter.html">Produkter</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
 
-        <!-- Hero -->
-        <section class="hero">
+        <section>
+            <h2>Retro och custom gaming</h2>
 
-            <div class="container hero-grid">
+            <p>
+                Välkommen till Modhouse. Vi erbjuder unika
+                custom gamingprodukter för dig som vill ha
+                något annorlunda.
+            </p>
 
-                <div>
+            <p>
+                <a href="produkter.html">Se våra produkter</a>
+            </p>
+        </section>
 
-                    <p class="eyebrow">
-                        Retro • Custom • Limited
-                    </p>
+        <section>
+            <h2>Utvalda produkter</h2>
 
-                    <h1>
-                        Gaming som inte finns överallt.
-                    </h1>
+            <article
+                itemscope
+                itemtype="https://schema.org/Product"
+            >
 
-                    <p>
-                        Upptäck handmoddade konsoler, custom-PC,
-                        mekaniska tangentbord och unika samlarobjekt.
-                    </p>
+                <h3 itemprop="name">Custom Gaming PC</h3>
 
-                    <a class="button" href="produkter.html">
-                        Utforska produkter →
-                    </a>
+                <img
+                    src="images/pc-cyberdrive.jpeg"
+                    alt="Custom Gaming PC"
+                    width="300"
+                    itemprop="image"
+                >
 
-                    <a class="button secondary" href="#categories">
-                        Se kategorier
-                    </a>
+                <p itemprop="description">
+                    En custombyggd gaming-PC för hög prestanda
+                    och gaming.
+                </p>
 
-                </div>
-
-                <aside class="hero-card">
-
-                    <strong>5</strong>
-
-                    <span>
-                        unika produkter i vår katalog
+                <p>
+                    Pris:
+                    <span
+                        itemprop="offers"
+                        itemscope
+                        itemtype="https://schema.org/Offer"
+                    >
+                        <span itemprop="price">28999</span>
+                        <span itemprop="priceCurrency">SEK</span>
                     </span>
+                </p>
 
-                    <p class="muted">
-                        Byggd för att visa en enkel e-handelsresa
-                        och samla data om användarbeteende.
-                    </p>
+                <p>
+                    <a href="produkt1.html">
+                        Läs mer om produkten
+                    </a>
+                </p>
 
-                </aside>
+            </article>
 
-            </div>
+            <article
+                itemscope
+                itemtype="https://schema.org/Product"
+            >
+
+                <h3 itemprop="name">Uplink Gaming Mouse</h3>
+
+                <img
+                    src="images/mouse-uplink.webp"
+                    alt="Uplink Gaming Mouse"
+                    width="300"
+                    itemprop="image"
+                >
+
+                <p itemprop="description">
+                    En enkel och anpassningsbar gamingmus
+                    för gaming.
+                </p>
+
+                <p>
+                    Pris:
+                    <span
+                        itemprop="offers"
+                        itemscope
+                        itemtype="https://schema.org/Offer"
+                    >
+                        <span itemprop="price">799</span>
+                        <span itemprop="priceCurrency">SEK</span>
+                    </span>
+                </p>
+
+                <p>
+                    <a href="produkt2.html">
+                        Läs mer om produkten
+                    </a>
+                </p>
+
+            </article>
 
         </section>
 
-        <!-- Kategorier -->
-        <section class="section" id="categories">
+        <section>
+            <h2>Om Modhouse</h2>
 
-            <div class="container">
+            <p>
+                Modhouse är ett skolprojekt som fokuserar på
+                retro gaming, customprodukter och enkel
+                e-handel.
+            </p>
 
-                <p class="eyebrow">
-                    Kategorier
-                </p>
-
-                <h2>
-                    Hitta din nästa setup-favorit
-                </h2>
-
-                <div class="category-grid">
-
-                    <a href="produkter.html?category=custom-pc" class="category-card">
-
-                        <h3>
-                            🖥️ Custom-PC
-                        </h3>
-
-                        <p class="muted">
-                            Byggda för prestanda och personlighet.
-                        </p>
-
-                    </a>
-
-                    <a href="produkter.html?category=moddade-konsoler" class="category-card">
-
-                        <h3>
-                            🕹️ Moddade konsoler
-                        </h3>
-
-                        <p class="muted">
-                            Retro möter modern design.
-                        </p>
-
-                    </a>
-
-                    <a href="produkter.html?category=custom-tillbehor" class="category-card">
-
-                        <h3>
-                            ⌨️ Custom-tillbehör
-                        </h3>
-
-                        <p class="muted">
-                            Handbyggda detaljer för din setup.
-                        </p>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- Om oss -->
-        <section class="section" id="about">
-
-            <div class="container">
-
-                <p class="eyebrow">
-                    Om Modhouse
-                </p>
-
-                <h2>
-                    Unika gamingprylar
-                </h2>
-
-                <p class="muted">
-                    Modhouse är ett skolprojekt som demonstrerar
-                    en semantisk webbshop med strukturerad produktdata
-                    och webbanalys.
-                </p>
-
-            </div>
-
+            <p>
+                Vårt mål är att erbjuda produkter som sticker
+                ut från vanliga gamingprodukter.
+            </p>
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-
-        <div class="container">
-
-            <p>
-                © 2026 Modhouse • Skolprojekt
-            </p>
-
-            <p>
-                Webbshop för retro, custom gaming och limited drops.
-            </p>
-
-        </div>
-
+    <footer>
+        <p>&copy; 2026 Modhouse</p>
     </footer>
-
-    <script src="js/main.js"></script>
 
 </body>
 
