@@ -1,0 +1,25 @@
+<div class="produkt">
+    <h2>MSI MAG 342CQR E2</h2>
+
+    <img src="msi-skarm.jpg" width="400" alt="MSI 34 tum gamingskärm">
+
+    <h3>34" Curved Gamingskärm</h3>
+
+    <p>
+        Upplev gaming på en stor 34-tums böjd skärm.
+        Skärmen har 3440x1440 upplösning, 180 Hz
+        uppdateringsfrekvens och 1 ms responstid.
+    </p>
+
+    <ul>
+        <li>34 tum</li>
+        <li>3440 x 1440</li>
+        <li>180 Hz</li>
+        <li>1 ms responstid</li>
+        <li>Curved 1500R</li>
+    </ul>
+
+    <h3>Pris: 2 990 kr</h3>
+
+    <button>Köp nu</button>
+</div>
