@@ -12,8 +12,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Modhouse - Våra produktkategorier">
-    <title>Produkter - Modhouse</title>
+    <meta name="description" content="Se Modhouse tillbehör.">
+    <title>Tillbehör - Modhouse</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,9 +34,6 @@
                     <a href="index.html">Hem</a>
                 </li>
                 <li>
-                    <a href="produkter.html">Produkter</a>
-                </li>
-                <li>
                     <a href="kategori.html">Kategori</a>
                 </li>
             </ul>
@@ -46,35 +43,43 @@
     <main>
 
         <section>
-            <h2>Kategorier</h2>
+            <h2>Tillbehör</h2>
 
-            <article>
-                <h3>Datorer</h3>
+            <article
+                itemscope
+                itemtype="https://schema.org/Product"
+            >
 
-                <p>
-                    Här hittar du våra custombyggda gamingdatorer
-                    och andra datorprodukter.
+                <h3 itemprop="name">RGB Gamingstol</h3>
+
+                <img
+                    src="images/gamingstol.webp"
+                    alt="RGB Gamingstol"
+                    width="300"
+                    itemprop="image"
+                >
+
+                <p itemprop="description">
+                    Ergonomisk gamingstol med inbyggd RGB-belysning
+                    och justerbara armstöd.
                 </p>
 
                 <p>
-                    <a href="kategori-datorer.html">
-                        Visa datorer
-                    </a>
-                </p>
-            </article>
-
-            <article>
-                <h3>Tillbehör</h3>
-
-                <p>
-                    Här hittar du gamingtillbehör.
+                    Pris:
+                    <span
+                        itemprop="offers"
+                        itemscope
+                        itemtype="https://schema.org/Offer"
+                    >
+                        <span itemprop="price">3499</span>
+                        <span itemprop="priceCurrency">SEK</span>
+                    </span>
                 </p>
 
-                <p>
-                    <a href="kategori-tillbehor.html">
-                        Visa tillbehör
-                    </a>
-                </p>
+                <a href="stol.html">
+                    Visa produkt
+                </a>
+
             </article>
 
         </section>
